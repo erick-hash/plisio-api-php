@@ -1,3 +1,14 @@
 {
-    "python.terminal.activateEnvironment": false
+    "python.terminal.activateEnvironment": false,
+    "python.unitTest.unittestArgs": [
+        "-v",
+        "-s",
+        "./cli",
+        "-p",
+        "*test.py"
+    ],
+    "python.unitTest.pyTestEnabled": false,
+    "python.unitTest.nosetestsEnabled": false,
+    "python.unitTest.unittestEnabled": true,
+    "php.debug.executablePath": ""
 }
